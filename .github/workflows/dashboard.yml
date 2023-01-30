@@ -30,7 +30,7 @@ jobs:
         with:
           azcliversion: 2.30.0
           inlineScript: |
-              az storage blob upload-batch --source dist --destination '$web/dashboard/latest' --account-name ${{ env.STORAGE_ACCOUNT }}
+              az storage blob upload-batch --source ./dist --destination '$web/dashboard/latest' --account-name ${{ env.STORAGE_ACCOUNT }}
       - name: logout
         run: |
               az logout
