@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-    paths:
-      - 'packages/marketing/**'
+    # paths:
+    #   - 'packages/marketing/**'
 env:
   STORAGE_ACCOUNT: 'mfeghworkflow'
 
