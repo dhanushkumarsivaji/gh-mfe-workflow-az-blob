@@ -7,7 +7,7 @@ on:
     # paths:
     #   - 'packages/marketing/**'
 env:
-  STORAGE_ACCOUNT: 'mfeghworkflow'
+  STORAGE_ACCOUNT: 'mfecdncheck'
 
 defaults:
   run:
